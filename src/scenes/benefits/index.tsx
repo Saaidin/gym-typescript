@@ -1,3 +1,11 @@
+import React from "react";
+
+const benefits = () => {
+  return <div>benefits</div>;
+};
+
+export default benefits;
+/*
 import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
 import { BenefitType, SelectedPage } from "@/shared/types";
@@ -48,7 +56,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
-        {/* HEADER */}
+        // HEADER 
         <motion.div
           className="md:my-5 md:w-3/5"
           initial="hidden"
@@ -68,7 +76,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
-        {/* BENEFITS */}
+        // BENEFITS 
         <motion.div
           className="mt-5 items-center justify-between gap-8 md:flex"
           initial="hidden"
@@ -87,18 +95,18 @@ const Benefits = ({ setSelectedPage }: Props) => {
           ))}
         </motion.div>
 
-        {/* GRAPHICS AND DESCRIPTION */}
+        // GRAPHICS AND DESCRIPTION 
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
-          {/* GRAPHIC */}
+          // GRAPHIC 
           <img
             className="mx-auto"
             alt="benefits-page-graphic"
             src={BenefitsPageGraphic}
           />
 
-          {/* DESCRIPTION */}
+          // DESCRIPTION 
           <div>
-            {/* TITLE */}
+            // TITLE 
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
                 <motion.div
@@ -119,7 +127,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
               </div>
             </div>
 
-            {/* DESCRIPT */}
+            // DESCRIPT 
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -146,7 +154,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
               </p>
             </motion.div>
 
-            {/* BUTTON */}
+            // BUTTON 
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
                 <ActionButton setSelectedPage={setSelectedPage}>
@@ -162,3 +170,4 @@ const Benefits = ({ setSelectedPage }: Props) => {
 };
 
 export default Benefits;
+*/

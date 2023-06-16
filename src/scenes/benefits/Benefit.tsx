@@ -1,3 +1,11 @@
+import React from "react";
+
+const Benefit = () => {
+  return <div>Benefit</div>;
+};
+
+export default Benefit;
+/*
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -40,3 +48,4 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
 };
 
 export default Benefit;
+*/

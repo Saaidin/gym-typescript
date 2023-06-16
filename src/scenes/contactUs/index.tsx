@@ -1,3 +1,11 @@
+import React from "react";
+
+const ContactUs = () => {
+  return <div>ContactUs</div>;
+};
+
+export default ContactUs;
+/*
 import { useForm } from "react-hook-form";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
@@ -30,7 +38,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
-        {/* HEADER */}
+        // HEADER 
         <motion.div
           className="md:w-3/5"
           initial="hidden"
@@ -52,7 +60,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
-        {/* FORM AND IMAGE */}
+        // FORM AND IMAGE 
         <div className="mt-10 justify-between gap-8 md:flex">
           <motion.div
             className="mt-10 basis-3/5 md:mt-0"
@@ -159,3 +167,4 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 };
 
 export default ContactUs;
+*/

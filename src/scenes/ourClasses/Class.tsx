@@ -1,3 +1,11 @@
+import React from "react";
+
+const Class = () => {
+  return <div>Class</div>;
+};
+
+export default Class;
+/*
 type Props = {
   name: string;
   description?: string;
@@ -22,3 +30,4 @@ const Class = ({ name, description, image }: Props) => {
 };
 
 export default Class;
+*/

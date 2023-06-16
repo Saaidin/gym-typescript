@@ -1,4 +1,12 @@
 import React from "react";
+
+const ActionButton = () => {
+  return <div>ActionButton</div>;
+};
+
+export default ActionButton;
+/*
+import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { SelectedPage } from "./types";
 
@@ -20,3 +28,4 @@ const ActionButton = ({ children, setSelectedPage }: Props) => {
 };
 
 export default ActionButton;
+*/

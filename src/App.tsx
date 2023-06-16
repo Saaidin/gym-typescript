@@ -1,3 +1,11 @@
+import React from "react";
+
+const App = () => {
+  return <div>App</div>;
+};
+
+export default App;
+/*
 import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home";
 import OurClasses from "@/scenes/ourClasses";
@@ -42,3 +50,4 @@ function App() {
 }
 
 export default App;
+*/

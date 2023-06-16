@@ -1,5 +1,13 @@
 import React from "react";
 
+const HText = () => {
+  return <div>HText</div>;
+};
+
+export default HText;
+/*
+import React from "react";
+
 type Props = {
   children: React.ReactNode;
 };
@@ -11,3 +19,4 @@ const HText = ({ children }: Props) => {
 };
 
 export default HText;
+*/

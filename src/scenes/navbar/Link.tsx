@@ -1,3 +1,11 @@
+import React from "react";
+
+const Link = () => {
+  return <div>Link</div>;
+};
+
+export default Link;
+/*
 import { SelectedPage } from "@/shared/types";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -24,3 +32,4 @@ const Link = ({ page, selectedPage, setSelectedPage }: Props) => {
 };
 
 export default Link;
+*/

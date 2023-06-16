@@ -1,3 +1,11 @@
+import React from "react";
+
+const useMediaQuery = () => {
+  return <div>useMediaQuery</div>;
+};
+
+export default useMediaQuery;
+/*
 import { useState, useEffect } from "react";
 
 const useMediaQuery = (query: string) => {
@@ -17,3 +25,4 @@ const useMediaQuery = (query: string) => {
 };
 
 export default useMediaQuery;
+*/

@@ -1,3 +1,11 @@
+import React from "react";
+
+const Footer = () => {
+  return <div>Footer</div>;
+};
+
+export default Footer;
+/*
 import Logo from "@/assets/Logo.png";
 
 const Footer = () => {
@@ -30,3 +38,4 @@ const Footer = () => {
 };
 
 export default Footer;
+*/

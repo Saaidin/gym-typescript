@@ -1,3 +1,11 @@
+import React from "react";
+
+const OurClasses = () => {
+  return <div>OurClasses</div>;
+};
+
+export default OurClasses;
+/*
 import { SelectedPage, ClassType } from "@/shared/types";
 import image1 from "@/assets/image1.png";
 import image2 from "@/assets/image2.png";
@@ -93,3 +101,4 @@ const OurClasses = ({ setSelectedPage }: Props) => {
 };
 
 export default OurClasses;
+*/
